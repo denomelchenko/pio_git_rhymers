@@ -63,15 +63,15 @@ public class RhymersJUnitTest {
         DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();
         final int EMPTY_STACK_VALUE = -1;
 
-        int result = rhymer.countOut();
+        int result = rhymer.length();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
 
         int testValue = 4;
         rhymer.countIn(testValue);
 
-        result = rhymer.countOut();
+        result = rhymer.length();
         Assert.assertEquals(testValue, result);
-        result = rhymer.countOut();
+        result = rhymer.length();
         Assert.assertEquals(EMPTY_STACK_VALUE, result);
     }
 

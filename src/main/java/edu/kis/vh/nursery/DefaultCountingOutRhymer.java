@@ -25,7 +25,7 @@ public class DefaultCountingOutRhymer {
         return NUMBERS[total];
     }
 
-    public int countOut() {
+    public int length() {
         if (isEmpty())
             return -1;
         return NUMBERS[total--];

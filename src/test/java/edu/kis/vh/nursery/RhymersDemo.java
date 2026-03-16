@@ -21,7 +21,7 @@ class RhymersDemo {
         
         for (int i = 0; i < rhymers.length; i++) {
             while (!rhymers[i].isEmpty())
-                System.out.print(rhymers[i].countOut() + "  ");
+                System.out.print(rhymers[i].length() + "  ");
             System.out.println();
         }
         
