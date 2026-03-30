@@ -6,7 +6,6 @@ public class IntLinkedList {
     private Node last;
     int i;
 
-    private Node last;
     public void push(int i) {
         if (last == null)
             last = new Node(i);
